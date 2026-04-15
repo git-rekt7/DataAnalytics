@@ -1,0 +1,3 @@
+/*
+The purpose of the sakila database is storing customer information for a movie rental store.
+*/
