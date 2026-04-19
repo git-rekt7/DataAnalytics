@@ -1,0 +1,16 @@
+USE northwind;
+SELECT * FROM northwind.employees;
+# I'm not sure the who the employee with the bird-esque name is. All of my results are obfuscated in null values.
+# which leaves me feeling like them, empty.
+
+SELECT * FROM products;
+# Results in null values. To return only 10 values, we must rewrite the syntax
+-- SELECT * FROM products LIMIT 10;
+
+SELECT * FROM categories;
+# Null values returned
+
+SELECT OrderID, OrderDate, ShipName, ShipCountry
+FROM Orders
+LIMIT 50;
+#Null VALUES!
