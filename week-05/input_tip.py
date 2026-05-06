@@ -16,4 +16,6 @@ total_due = food_cost + tax + tip
 print("food cost is " + str(food_cost) + " and tax is " + str(tax))
 # print("Tip is " + str(tip))
 print("Tip is " + format(tip, ".2f"))
-print("Total due is " + str(total_due))
+print(f"Total due is {total_due}")
+
+#Used f-string for total due print statement
